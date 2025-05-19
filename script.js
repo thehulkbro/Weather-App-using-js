@@ -13,7 +13,7 @@ btn.addEventListener('click', searchForLocation);
 let target = "kolkata";
 
 const fetchWeather = async (targetW) => {
-    let url = `http://api.weatherapi.com/v1/current.json?key=f83c5cc61d8b452c8a661804252701&q=${targetW}&aqi=no`;
+    let url = `http://api.weatherapi.com/v1/current.json?key=22b3eb7c9a254a708f860027251905&q=${targetW}&aqi=no`;
     
     let result = await fetch(url);
     let data = await result.json();
